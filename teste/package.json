@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3",
+    "mongose": "^0.0.2-security",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "sucrase": "^3.34.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.20",
+    "@types/multer": "^1.4.10",
+    "@types/node": "^20.8.9",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.5.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "prisma": {
+    "seed": "ts-node ./prisma/seed.ts"
+  },
+  "name": "novo-teste",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "vinicius",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
